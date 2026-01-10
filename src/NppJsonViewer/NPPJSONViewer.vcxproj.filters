@@ -16,10 +16,10 @@
     <Filter Include="ThirdParty">
       <UniqueIdentifier>{3a31aa3c-9f15-4a33-bf5c-b9153d1e757a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ThirdParty\plugintemplate">
+    <Filter Include="ThirdParty\npp_include">
       <UniqueIdentifier>{5b794f9e-baf6-4faf-98a6-741b4918d410}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ThirdParty\plugintemplate\DockingFeature">
+    <Filter Include="ThirdParty\npp_include\DockingFeature">
       <UniqueIdentifier>{072ab05e-efec-4d68-9a86-dbdf2bdaec4d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -60,8 +60,8 @@
     <ClCompile Include="TreeViewCtrl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="plugintemplate\DockingFeature\StaticDialog.cpp">
-      <Filter>ThirdParty\plugintemplate\DockingFeature</Filter>
+    <ClCompile Include="npp_include\DockingFeature\StaticDialog.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -116,35 +116,35 @@
     <ClInclude Include="TreeViewCtrl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="plugintemplate\DockingFeature\Docking.h">
-      <Filter>ThirdParty\plugintemplate\DockingFeature</Filter>
+    <ClInclude Include="npp_include\DockingFeature\Docking.h">
+      <Filter>ThirdParty\npp_include\DockingFeature</Filter>
     </ClInclude>
-    <ClInclude Include="plugintemplate\DockingFeature\DockingDlgInterface.h">
-      <Filter>ThirdParty\plugintemplate\DockingFeature</Filter>
+    <ClInclude Include="npp_include\DockingFeature\DockingDlgInterface.h">
+      <Filter>ThirdParty\npp_include\DockingFeature</Filter>
     </ClInclude>
-    <ClInclude Include="plugintemplate\DockingFeature\dockingResource.h">
-      <Filter>ThirdParty\plugintemplate\DockingFeature</Filter>
+    <ClInclude Include="npp_include\DockingFeature\dockingResource.h">
+      <Filter>ThirdParty\npp_include\DockingFeature</Filter>
     </ClInclude>
-    <ClInclude Include="plugintemplate\DockingFeature\StaticDialog.h">
-      <Filter>ThirdParty\plugintemplate\DockingFeature</Filter>
+    <ClInclude Include="npp_include\DockingFeature\StaticDialog.h">
+      <Filter>ThirdParty\npp_include\DockingFeature</Filter>
     </ClInclude>
-    <ClInclude Include="plugintemplate\DockingFeature\Window.h">
-      <Filter>ThirdParty\plugintemplate\DockingFeature</Filter>
+    <ClInclude Include="npp_include\DockingFeature\Window.h">
+      <Filter>ThirdParty\npp_include\DockingFeature</Filter>
     </ClInclude>
-    <ClInclude Include="plugintemplate\menuCmdID.h">
-      <Filter>ThirdParty\plugintemplate</Filter>
+    <ClInclude Include="npp_include\menuCmdID.h">
+      <Filter>ThirdParty\npp_include</Filter>
     </ClInclude>
-    <ClInclude Include="plugintemplate\Notepad_plus_msgs.h">
-      <Filter>ThirdParty\plugintemplate</Filter>
+    <ClInclude Include="npp_include\Notepad_plus_msgs.h">
+      <Filter>ThirdParty\npp_include</Filter>
     </ClInclude>
-    <ClInclude Include="plugintemplate\PluginInterface.h">
-      <Filter>ThirdParty\plugintemplate</Filter>
+    <ClInclude Include="npp_include\PluginInterface.h">
+      <Filter>ThirdParty\npp_include</Filter>
     </ClInclude>
-    <ClInclude Include="plugintemplate\Sci_Position.h">
-      <Filter>ThirdParty\plugintemplate</Filter>
+    <ClInclude Include="npp_include\Sci_Position.h">
+      <Filter>ThirdParty\npp_include</Filter>
     </ClInclude>
-    <ClInclude Include="plugintemplate\Scintilla.h">
-      <Filter>ThirdParty\plugintemplate</Filter>
+    <ClInclude Include="npp_include\Scintilla.h">
+      <Filter>ThirdParty\npp_include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

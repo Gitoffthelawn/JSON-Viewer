@@ -198,7 +198,7 @@
     <ClCompile Include="ShortcutCommand.cpp" />
     <ClCompile Include="SliderCtrl.cpp" />
     <ClCompile Include="TreeViewCtrl.cpp" />
-    <ClCompile Include="plugintemplate\DockingFeature\StaticDialog.cpp" />
+    <ClCompile Include="npp_include\DockingFeature\StaticDialog.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AboutDlg.h" />
@@ -207,6 +207,7 @@
     <ClInclude Include="JsonNode.h" />
     <ClInclude Include="JsonViewDlg.h" />
     <ClInclude Include="NppJsonPlugin.h" />
+    <ClInclude Include="npp_include\Sci_Position.h" />
     <ClInclude Include="Profile.h" />
     <ClInclude Include="RapidJsonHandler.h" />
     <ClInclude Include="resource.h" />
@@ -218,15 +219,15 @@
     <ClInclude Include="TrackingStream.h" />
     <ClInclude Include="TreeHandler.h" />
     <ClInclude Include="TreeViewCtrl.h" />
-    <ClInclude Include="plugintemplate\DockingFeature\Docking.h" />
-    <ClInclude Include="plugintemplate\DockingFeature\DockingDlgInterface.h" />
-    <ClInclude Include="plugintemplate\DockingFeature\dockingResource.h" />
-    <ClInclude Include="plugintemplate\DockingFeature\StaticDialog.h" />
-    <ClInclude Include="plugintemplate\DockingFeature\Window.h" />
-    <ClInclude Include="plugintemplate\menuCmdID.h" />
-    <ClInclude Include="plugintemplate\Notepad_plus_msgs.h" />
-    <ClInclude Include="plugintemplate\PluginInterface.h" />
-    <ClInclude Include="plugintemplate\Scintilla.h" />
+    <ClInclude Include="npp_include\DockingFeature\Docking.h" />
+    <ClInclude Include="npp_include\DockingFeature\DockingDlgInterface.h" />
+    <ClInclude Include="npp_include\DockingFeature\dockingResource.h" />
+    <ClInclude Include="npp_include\DockingFeature\StaticDialog.h" />
+    <ClInclude Include="npp_include\DockingFeature\Window.h" />
+    <ClInclude Include="npp_include\menuCmdID.h" />
+    <ClInclude Include="npp_include\Notepad_plus_msgs.h" />
+    <ClInclude Include="npp_include\PluginInterface.h" />
+    <ClInclude Include="npp_include\Scintilla.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="resource.rc" />
